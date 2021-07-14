@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Agency</title>
+
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- For desktop -->
+    <link
+      rel="stylesheet"
+      href="desktop.css"
+      media="screen and (min-width: 992px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header starts here -->
+      <header>
+        <nav class="navbar row">
+          <div class="logo-div col-2">
+            <img class="logo" src="images/logo.svg" alt="" />
+          </div>
+          <div class="nav-button">
+            <button class="nav-btn" onclick="show_nav()">
+              <i class="fas fa-bars fa-2x bar-icon"></i>
+            </button>
+          </div>
+
+          <div class="clear-div"></div>
+
+          <div class="nav-menu col-8">
+            <div id="nav-link">
+              <a href="#home" style="color: #ff3946">Home.</a>
+              <a href="#about-us">About Us.</a>
+              <a href="#portfolio">Portfolio.</a>
+              <a href="#blog">Blog.</a>
+              <a href="#contact">Contact Us.</a>
+
+              <div class="dropdown-container">
+                <a href="#"
+                  >EN <span><i class="fas fa-caret-down"></i></span
+                ></a>
+                <div class="dropdown-content">
+                  <div class="drop-item">
+                    <a href="#">Della</a>
+                    <a href="#">Hair</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-div col-2">
+            <p>Contact Us.</p>
+          </div>
+        </nav>
+      </header>
+      <!-- Header ends here -->
+
+      <!-- main div starts here -->
+      <div class="main">
+        <section class="upper-section col-12" id="home">
+          <div class="content col-6">
+            <h2>The Spirit of Digital Agency.</h2>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+
+            <div class="link-div">
+              <div class="btn-div">
+                <button>More About Us</button>
+              </div>
+              <div class="get-link">
+                <a href="#">Get in Touch</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-div col-6">
+            <img class="desktop-img" src="images/hero.svg" alt="" />
+          </div>
+        </section>
+        <div class="clear-div"></div>
+        <!-- Upper section ends here -->
+
+        <!-- Middle section starts -->
+
+        <section id="about-us">
+          <div class="mid-section col-12">
+            <div class="mid-left-items col-4">
+              <img src="./images/aside-left.svg" alt="" />
+
+              <div class="mid-description">
+                <p>
+                  Anything you <span class="break"><br /></span> need,we’ve
+                  <br />
+                  got you covered
+                </p>
+                <button>Get in Touch</button>
+              </div>
+            </div>
+
+            <div class="mid-card-div col-8">
+              <div class="card col-4">
+                <div class="card-logo">
+                  <img src="./images/service-icon1.svg" alt="" />
+                </div>
+                <br />
+
+                <div class="card-description">
+                  <h2>
+                    Web & Graphic <br />
+                    Design
+                  </h2>
+                  <p>
+                    Vestibulum ac diam sit amet quam vehicula elementum amet est
+                    on dui. Nulla porttitor accumsan tincidunt.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card col-4">
+                <div class="card-logo">
+                  <img src="./images/service-icon2.svg" alt="" />
+                </div>
+                <br />
+
+                <div class="card-description">
+                  <h2>
+                    Web & App <br />
+                    Development
+                  </h2>
+                  <p>
+                    Vestibulum ac diam sit amet quam vehicula elementum amet est
+                    on dui. Nulla porttitor accumsan tincidunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="clear-div"></div>
+
+            <div class="right-img-div">
+              <img src="./images/aside2-right.svg" alt="" />
+            </div>
+            <div class="skill-img-div col-6">
+              <img src="./images/aboutimg.svg" alt="" />
+            </div>
+            <div class="about-us-div col-6">
+              <h4>OUR COMPANY</h4>
+              <br />
+              <h2>
+                Some Fine <br />
+                Words About Us
+              </h2>
+              <p>
+                Vestibulum ac diam sit amet quam vehicula <br />
+                elementum amet est on dui. Nulla porttitor <br />
+                accumsan tincidunt.Vestibulum ac diam sit <br />
+                amet.Quam vehicula elementum amet est on dui. <br />
+                Nulla porttitor accumsan tincidunt.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Middle section ends here -->
+        <div class="clear-div"></div>
+        <br />
+        <br />
+        <!-- Lower section starts here -->
+        <section class="lower" id="portfolio">
+          <div class="work-div">
+            <h2>
+              See some of our <br />
+              Creative work.
+            </h2>
+          </div>
+          <div class="work-card-div col-12">
+            <div class="card-work col-4">
+              <img src="./images/1.png" alt="" />
+            </div>
+            <div class="card-work col-4">
+              <img src="./images/1.png" alt="" />
+            </div>
+            <div class="card-work col-4">
+              <img src="./images/1.png" alt="" />
+            </div>
+            <div class="card-work col-4">
+              <img src="./images/1.png" alt="" />
+            </div>
+            <div class="card-work col-4">
+              <img src="./images/1.png" alt="" />
+            </div>
+            <div class="card-work col-4">
+              <img src="./images/1.png" alt="" />
+            </div>
+          </div>
+          <div class="clear-div"></div>
+          <p class="show-more">Show More.</p>
+        </section>
+        <div class="clear-div"></div>
+        <!-- End of work part -->
+
+        <!-- Blog and news part starts here-->
+
+        <section id="blog">
+          <div class="blog-news">
+            <p>BLOG STORIES</p>
+            <h2>Check Our News</h2>
+          </div>
+
+          <div class="blog-card-div">
+            <!-- <div class="background-div">
+              <img class="background" src="./images/aside4.svg" alt="" />
+            </div> -->
+
+            <div class="all-card">
+              <div class="blog-card" style="background: #ff3946; color: white">
+                <h3>New Adventure</h3>
+                <p class="date">17 March 2021</p>
+                <p>
+                  Vestibulum ac diam sit amet <br />
+                  quam vehicula elementum amet <br />
+                  est on dui. Nulla porttitor <br />
+                  accumsan tincidunt
+                </p>
+              </div>
+              <div class="blog-card">
+                <h3>New Adventure</h3>
+                <p class="date">17 March 2021</p>
+                <p>
+                  Vestibulum ac diam sit amet <br />
+                  quam vehicula elementum amet <br />
+                  est on dui. Nulla porttitor <br />
+                  accumsan tincidunt
+                </p>
+              </div>
+              <div class="blog-card">
+                <h3>New Adventure</h3>
+                <p class="date">17 March 2021</p>
+                <p>
+                  Vestibulum ac diam sit amet <br />
+                  quam vehicula elementum amet <br />
+                  est on dui. Nulla porttitor <br />
+                  accumsan tincidunt
+                </p>
+              </div>
+
+              <!-- Hidden card here -->
+
+              <div class="blog-card hidden-card">
+                <h3>New Adventure</h3>
+                <p class="date">17 March 2021</p>
+                <p>
+                  Vestibulum ac diam sit amet <br />
+                  quam vehicula elementum amet <br />
+                  est on dui. Nulla porttitor <br />
+                  accumsan tincidunt
+                </p>
+              </div>
+
+              <div class="blog-card hidden-card">
+                <h3>New Adventure</h3>
+                <p class="date">17 March 2021</p>
+                <p>
+                  Vestibulum ac diam sit amet <br />
+                  quam vehicula elementum amet <br />
+                  est on dui. Nulla porttitor <br />
+                  accumsan tincidunt
+                </p>
+              </div>
+
+              <p class="show-card-button">
+                <button>Show More Stories.</button>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="clear-div"></div>
+        <!-- Blog and news ends here -->
+
+        <!-- Contact us starts here -->
+
+        <section id="contact">
+          <div class="contact-us">
+            <p>contact us</p>
+            <h2>Get in Touch</h2>
+            <form action="" method="POST">
+              <div class="input-div">
+                <input class="col-5" type="email" value="Your email" />
+                <input class="col-5" type="text" value="Subject" />
+              </div>
+
+              <textarea name="" id="" cols="30" rows="10">
+Message here..
+                </textarea
+              >
+              <div class="submit-button">
+                <input type="submit" value="Send Message" />
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- Contact us ends here -->
+      </div>
+      <!-- main div ends here -->
+
+      <!-- Footer-section starts -->
+      <section class="footer-section">
+        <div class="footer">
+          <div class="footer-content">
+            <p>DOOB</p>
+            <h2>CREATIVITY ABOVE</h2>
+          </div>
+
+          <div class="footer-link">
+            <a href="#home">Home.</a>
+            <a href="#about-us">About Us.</a>
+            <a href="#portfolio">Portfolio.</a>
+            <a href="#blog">Blog.</a>
+            <a href="#contact">Contact.</a>
+          </div>
+          <br />
+          <br />
+          <br />
+
+          <div class="copy-right">
+            <p>&copy; 2021 - Doob,All Right Reserved</p>
+          </div>
+
+          <div class="footer-icon">
+            <span><i class="fab fa-facebook-f icon fa-2x"></i></span>
+            <span><i class="fab fa-twitter icon fa-2x"></i></span>
+            <span><i class="fas fa-globe icon fa-2x"></i></span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,266 @@
+/* navbar starts here */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  margin-left: 100px;
+}
+
+.nav-menu {
+  font-size: 1.5rem;
+  margin-top: 45px;
+  justify-content: flex-start;
+}
+.nav-button button {
+  display: none;
+}
+.nav-menu a {
+  display: inline;
+  padding: 20px;
+}
+
+.dropdown-container {
+  display: inline;
+}
+.dropdown-content {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  display: none;
+}
+.drop-item {
+  background-color: #314584;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 1.2rem;
+
+  border-radius: 5px;
+}
+.drop-item a {
+  display: block;
+  line-height: 5px;
+}
+
+.contact-div {
+  text-align: center;
+  visibility: visible;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+.contact-div p {
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  color: #ff3946;
+  box-shadow: 3px 2px 5px black;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Navbar ends here */
+
+/* Main section starts.. */
+
+/* Upper-part  */
+
+.link-div {
+  margin-left: 100px;
+}
+
+.get-link a {
+  margin-right: 100px;
+}
+.content h2,
+p {
+  margin-left: 100px;
+}
+.img-div {
+  display: block;
+}
+
+.img-div .desktop-img {
+  margin-top: -130px;
+  margin-left: 130px;
+  width: 80%;
+  height: 50%;
+}
+
+.mid-description {
+  text-align: left;
+}
+.mid-description p,
+button {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 25px;
+}
+.break {
+  display: inline;
+}
+.mid-card-div {
+  position: static;
+}
+
+.right-img-div img {
+  margin-top: -420px;
+}
+
+.skill-img-div {
+  position: absolute;
+  width: 90%;
+  top: 300px;
+  left: 10px;
+}
+
+.about-us-div {
+  position: absolute;
+  top: 500px;
+  left: 720px;
+  text-align: left;
+}
+.about-us-div h4 {
+  margin-left: 40px;
+}
+.about-us-div h2 {
+  margin-left: 35px;
+}
+.about-us-div p {
+  margin-left: 45px;
+}
+
+/* Middle section ends */
+
+/* lower section starts */
+
+.work-div {
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 60px;
+}
+
+.work-card-div {
+  margin-left: 50px;
+}
+
+.card-work {
+  margin: 10px -20px;
+  text-align: center;
+}
+
+/* Work div ends here */
+.background-div {
+  z-index: -1;
+}
+/* Blog and news starts here */
+
+.blog-news {
+  text-align: left;
+  margin-left: -20px;
+}
+.blog-news p,
+h2 {
+  margin-left: 90px;
+}
+
+.all-card {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-card h3,
+p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.show-card-button {
+  display: none;
+}
+
+/* End of blog & news section */
+
+/* Contact div starts */
+
+.contact-us {
+  margin-top: 300px;
+  text-align: left;
+}
+.contact-us p {
+  margin-left: 90px;
+}
+.input-div {
+  margin-left: 80px;
+}
+.contact-us textarea {
+  width: 76%;
+  margin-left: 90px;
+}
+.submit-button {
+  text-align: center;
+}
+
+/* Contact us ends */
+
+/* Footer starts here */
+
+.footer-content p {
+  text-align: center;
+}
+.footer-content h2 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.footer-link a {
+  font-size: 1.4rem;
+  margin: 8px;
+}
+.copy-right {
+  text-align: center;
+  margin-left: 460px;
+}
+
+/* Footer ends */
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
